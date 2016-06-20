@@ -1,12 +1,12 @@
 class GameWindow < Gosu::Window
- 
+
   attr_accessor :state
- 
+
   def initialize
     super(406, 430, false)
     self.caption = "2048"
   end
- 
+
   def update
     @state.update
   end
