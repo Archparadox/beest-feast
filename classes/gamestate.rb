@@ -1,5 +1,5 @@
 class GameState
- 
+
   def self.switch(new_state)
     $window.state = new_state
   end

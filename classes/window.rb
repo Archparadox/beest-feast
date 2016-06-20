@@ -4,6 +4,7 @@ class GameWindow < Gosu::Window
  
   def initialize
     super(406, 430, false)
+    self.caption = "2048"
   end
  
   def update
